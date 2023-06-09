@@ -10,14 +10,17 @@
         height:360px;
         width: 100%;
         object-fit:cover;
+        margin-bottom:16px;
       }
     </style>
   </head>
   <body>
+    {% include 'nav.html' %}
+     <img id="banner" class="img-fluid" src="https://careerwebsite.crapulence01.repl.co/static/banner.jpg" >
     <div class="container">
      <h1 class="text-center mt-2 mb-4">Careers</h1>
-    <img id="banner" class="img-fluid" src="https://careerwebsite.crapulence01.repl.co/static/banner.jpg" >
-    <h2 class="text-center mt-2 mb-4">About the Page</h2>
+   
+    
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h2 class="text-center mt-2 mb-4">Job Openings</h2>
     <div>
@@ -30,5 +33,6 @@
         <p class="mt-4">Copyright 2023, Company</p>
         </div>
     </div>
+     {% include 'foot.html' %}
   </body>
 </html>
